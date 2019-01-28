@@ -1,0 +1,99 @@
+body{
+    background-color: #F0EEE7;
+    text-align: center;
+    font-family:  snell -apple-system;
+    color: #B4975D;
+}
+
+#container{
+    margin: 5% 5% 5% 5%;
+    width: 650px;
+    height: 800px;
+    margin: 0 auto;
+    overflow:auto;
+    background-color: #ffffff;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+.main-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  Palatino, URW Palladio L, serif;
+    background-color:#B4975D;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  p{
+    margin: auto 5% 5%;
+    color: #555555;
+    font-family: Palatino, URW Palladio L, serif;
+    line-height: 1.2;
+  }
+
+ .main-p{
+    margin: auto 5% 5%;
+    color: #555555;
+    font-family: Optima, sans-serif;
+    font-size: 25px;
+  }
+
+  
+  hr{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    border-top: 1px solid #B4975D;
+    background-color: #B4975D;
+  }
+
+  @media screen and (max-width: 640px) {
+    #container, .main-card, body {
+        max-width: 100%;
+    }
+
+    #container{
+        height: 550px;
+    }
+
+    h1{
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .main-p{
+        max-width: 100%;
+        font-size: 16px;
+        margin: auto 5% 5%;
+    }
+
+    p{
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .btn{
+        max-width: 100%;
+        top: 500px;
+        
+    }
+
+    hr{
+        max-width: 100%;
+        top: 530px;
+    }
+
+  }

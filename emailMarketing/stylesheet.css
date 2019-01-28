@@ -1,0 +1,110 @@
+#container{
+    margin: 5% 5% 5% 5%;
+    width: 650px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 65%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(161, 146, 227);
+    color: white;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+  }
+
+  h1{
+    text-align: center;
+}
+
+.main-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   float: right;
+  }
+
+.container-two {
+  width: 100%;
+  display: flex;
+}
+  .card, h1, h2, p {
+    margin: auto 5% 5% ;
+    color: black;
+   
+ } 
+
+ p {
+    text-align: left ;
+    color: black;
+ } 
+
+  footer{
+      background-color: black;
+      height: 160px;
+      width: 650px;
+      margin: 0 auto;
+  }
+
+  .footer-text{
+     padding-top: 40px;
+    color: white;
+    text-align: center;
+  
+  }
+
+  @media screen and (max-width: 640px) {
+    #container, .container, .centered, .btn, .main-card,  footer{
+      max-width: 100%;
+    }
+    .container-two {
+      width: 100%;
+      display: flex;
+    }
+
+    .centered{
+      font-size: 18px;
+    }
+    
+    .container .btn{
+      font-size: 8px;
+      padding: 5px 8px;
+    }
+     h1, h2, p {
+    font-size: 14px;
+     
+   } 
+  
+
+  }
+
+
+
+
+
+
+
+  
